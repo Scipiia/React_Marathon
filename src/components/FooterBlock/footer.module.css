@@ -1,0 +1,50 @@
+.footer {
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: #000;
+	background-image: url(./img2/dream.jpg);
+}
+
+.footer:after {
+	content: '';
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	background-image: linear-gradient(to top, rgba(26, 40, 120, 0.70), rgba(10, 143, 196, 0.70));
+}
+
+.footer .header {
+	font-size: 68px;
+	color: #fff;
+	padding: 24px 0;
+	
+}
+
+.footer .forms {
+	margin-top: 400px;
+}
+
+.footer .inpuut {
+	padding: 20px 10px 20px 10px;
+	border-radius: 10px;
+	margin: 20px;
+	position: relative;
+	z-index: 22;
+	font-size: 22px;
+	background-color: rgb(19, 70, 209);
+	color: rgba(235, 15, 59, 0.925);
+}
